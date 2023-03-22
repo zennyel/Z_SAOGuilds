@@ -1,0 +1,110 @@
+#Clan Creation Messages
+Guild-name-too-short: "&3Guild name too short - minimum length is &63 characters&3."
+Guild-name-too-long: "&3Guild name too long - maximum length is &616 characters&3."
+Guild-created-successfully: "&3Guild &6%Guild% &3was Created!"
+Guild-creation-failed: "&3Guild &6%Guild% &3was NOT created, please make sure you're not already in a Guild!"
+
+#Guild Disbanded Messages
+Guild-successfully-disbanded: "&3Guild was disbanded!"
+Guild-disband-failure: "&3Failed to disband Guild - Please make sure you're the owner!"
+
+#Guild Invite Messages
+Guild-invite-no-valid-player: "&3Please specify a player to invite!"
+Guild-invite-not-Guild-owner: "&3You must be a Guild owner to invite people!"
+Guild-invite-self-error: "&3You can't invite yourself!"
+Guild-invitee-not-found: "&3Player &6%INVITED% &3was not found, make sure they are online!"
+Guild-invite-invited-already-in-Guild: "&3Player &6%INVITED% &3is already in a Guild!"
+Guild-invite-max-size-reached: "&3You have reached the clam members size limit &a%LIMIT%&3!"
+Guild-invite-successful: "&3You have invited &6%INVITED% &3to your Guild!"
+Guild-invite-failed: "&3Failed to send invite to &6%INVITED%&3, this player might already have an invitation!"
+Guild-invited-player-invite-pending: "&3You have been invited to a Guild by &6%GuildOWNER% &3- use /Guild join"
+
+#Guild Join Messages
+Guild-join-successful: "&3Successfully joined &6%Guild%&3!"
+Guild-join-failed: "&3Failed to join &6%Guild%&3"
+Guild-join-failed-no-valid-Guild: "&3Failed to join a Guild - no Guild was found!"
+Guild-join-failed-no-invite: "&3Failed to join a Guild - no invite was found!"
+
+#Guild Leave Messages
+failed-Guild-owner: "&3You are the owner of a Guild, use &6/Guild disband&3."
+Guild-leave-successful: "&3You have left &6%Guild%."
+Guild-leave-failed: "&3Failed to leave Guild, please try again later."
+
+#Guild Kick Messages
+Guild-member-kick-successful: "&3Player &6%KICKEDPLAYER%&3 was kicked from your Guild."
+Guild-kicked-player-message: "&3You were kicked from &6%Guild%&3!"
+targeted-player-is-not-in-your-Guild: "&3Player &6%KICKEDPLAYER%&3 is not in your Guild."
+could-not-find-specified-player: "&3Could not find player &6%KICKEDPLAYER%&3."
+must-be-owner-to-kick: "&3You are not an owner of a Guild!"
+incorrect-kick-command-usage: "&3Unrecognised argument please use &6/Guild kick <member>&3."
+failed-cannot-kick-yourself: "&3You cannot kick yourself, use &6/Guild leave&3."
+
+#Guild Prefix Messages
+Guild-prefix-change-successful: "&3Successfully changed Guild prefix to &6%GuildPREFIX%&3!"
+Guild-prefix-too-long: "&3Guild prefix too long - maximum length is &616 characters&3."
+Guild-prefix-too-short: "&3Guild prefix too short - minimum length is 763 characters&3."
+Guild-invalid-prefix: "&3Please provide a new prefix. Use &b/Guild prefix <prefix>&3!"
+must-be-owner-to-change-prefix: "&3You are not an owner of a Guild!"
+
+#Guild List Messages
+no-Guilds-to-list: "&3No Guilds found!\n&3Create one using &b/Guild create <name>&3!"
+Guilds-list-header: "&7----- &6GuildsList &7-----&r\n&3&lCurrent Guilds:&r\n"
+Guilds-list-footer: "\n&7-----"
+
+#Guild Info Messages
+Guild-info-header: "&7----- &6GuildInfo &7-----&r\n&3Name: %Guild%&r\n&3Prefix: &7(%GuildPREFIX%&r&7)&r"
+Guild-info-owner-online: "\n\n&3Owner: &a%OWNER%"
+Guild-info-owner-offline: "\n\n&3Owner: &c%OWNER%&7&o(offline)"
+Guild-info-members-header: "\n\n&3Members:"
+Guild-info-members-online: "\n&a%MEMBER%\n"
+Guild-info-members-offline: "\n&c%MEMBER%&7&o(offline)\n"
+Guild-info-allies-header: "\n\n&3Allied Guilds:"
+Guild-ally-members: "\n&a%ALLYGuild%\n"
+Guild-pvp-status-enabled: "\n\n&3Friendly Fire: &a&oENABLED"
+Guild-pvp-status-disabled: "\n\n&3Friendly Fire: &c&oDISABLED"
+Guild-home-set-true: "\n\n&3Home Set: &a&oTRUE"
+Guild-home-set-false: "\n\n&3Home Set: &c&oFALSE"
+Guild-info-footer: "\n&7-----"
+not-in-Guild: "&3You are not in a Guild!"
+
+#Guild Ally Messages
+added-Guild-to-your-allies: "&3You successfully added &6%ALLYGuild% &3to your allies!"
+Guild-added-to-other-allies: "&6%GuildOWNER% &3has added your Guild to their allies!"
+failed-to-add-Guild-to-allies: "&3Unable to add &6%ALLYOWNER%&3! Make sure the owner is online!"
+failed-player-not-Guild-owner: "&6%ALLYOWNER%&3 is not a Guild owner!"
+removed-Guild-from-your-allies: "&3You Successfully removed &6%ALLYGuild% &3from your allies!"
+Guild-removed-from-other-allies: "&3The Guild owner &6%GuildOWNER% &3has removed your Guild from their allies!"
+failed-to-remove-Guild-from-allies: "&3Unable to remove &6%ALLYOWNER%&3! Make sure they're you ally"
+ally-Guild-add-owner-offline: "&3Unable to add &6%ALLYOWNER%&3! Make sure the owner is online!"
+ally-Guild-remove-owner-offline: "&3Unable to remove &6%ALLYOWNER%&3! Make sure the owner is online!"
+incorrect-Guild-ally-command-usage: "&3Unrecognised argument please use &6/Guild [add|remove] <Guild-owner>&3."
+failed-cannot-ally-your-own-Guild: "&3You cannot be an ally with your &3&lOWN&r&3 Guild!"
+Guild-ally-max-amount-reached: "&3You have reached the Guild allies amount limit &a%LIMIT%&3!"
+
+#Guild Friendly Fire
+enabled-friendly-fire: "&3You successfully &aenabled &3friendly fire.\n&3Your Guild members can now pvp each other!"
+disabled-friendly-fire: "&3You successfully &cdisabled &3friendly fire.\n&3Your Guild members can no longer pvp each other!"
+failed-not-in-Guild: "&3You need to be in a Guild first! Use &6/Guild &3for details how."
+friendly-fire-is-disabled: "&3Your Guild has friendly fire disabled."
+
+#Guild Homes
+successfully-set-Guild-home: "&3You &aSuccessfully &3set the Guild home to your current location!"
+cool-down-timer-wait: "&3Sorry, you can't use that again for another &6%TIMELEFT%&r &3seconds."
+successfully-teleported-to-home: "&3You teleported to your Guild's home."
+failed-no-home-set: "&3Your Guild does not have a home set!"
+failed-tp-not-in-Guild: "&3You need to be in a Guild first! Use &6/Guild &3for details how."
+
+#General Plugin Messages
+Guild-must-be-owner: "&3Você precisa ser o proprietário da guilda para fazer isso."
+function-disabled: "&3Desculpe, isso foi desativado. :("
+plugin-reload-successful: "&6SAOGuilds: &aAs configurações foram recarregadas!"
+incorrect-command-usage: "&3Argumento não reconhecido. Use &6/Guild&3."
+player-only-command: "&4Desculpe, este comando só pode ser executado por um jogador!"
+saving-Guilds-start: "&6SAOGuilds: Salvando dados de guildas ..."
+save-completed: "&6SAOGuilds: &aGuildas salvas!"
+auto-save-started: "&6SAOGuilds: &aA tarefa de salvamento automático foi iniciada."
+auto-save-complete: "&6SAOGuilds: &aTodas as guildas foram salvas!"
+auto-save-failed: "&6SAOGuilds: &4Falha ao salvar no banco de dados, verifique MySQL!"
+Guilds-save-error-1: "&6SAOGuilds: &4Falha ao salvar Guilds.yml no arquivo!"
+Guilds-save-error-2: "&6SAOGuilds: &4Verifique o console para erros!"
+Guilds-update-error: "&6SAOGuilds: &4Falha ao atualizar o arquivo Guilds.yml!\n&6SAOGuilds: &4Verifique o console para erros!"s!"
